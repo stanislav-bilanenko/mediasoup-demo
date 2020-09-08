@@ -12,6 +12,10 @@ const os = require('os');
 
 module.exports =
 {
+	ws : {
+		host : 'mediasoup-test-scoby-backend.softermii.co',
+		port : 4443
+	},
 	// Listening hostname (just for `gulp live` task).
 	domain : process.env.DOMAIN || 'localhost',
 	// Signaling settings (protoo WebSocket server and HTTP API server).
