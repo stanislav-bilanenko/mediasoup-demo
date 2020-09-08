@@ -13,8 +13,7 @@ const os = require('os');
 module.exports =
 {
 	ws : {
-		host : 'mediasoup-test-scoby-backend.softermii.co',
-		port : 443
+		host : 'mediasoup-test-scoby-backend.softermii.co'
 	},
 	// Listening hostname (just for `gulp live` task).
 	domain : process.env.DOMAIN || 'localhost',
