@@ -14,7 +14,7 @@ module.exports =
 {
 	ws : {
 		host : 'mediasoup-test-scoby-backend.softermii.co',
-		port : 4443
+		port : 443
 	},
 	// Listening hostname (just for `gulp live` task).
 	domain : process.env.DOMAIN || 'localhost',
